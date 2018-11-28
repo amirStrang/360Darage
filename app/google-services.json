@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1067791139091",
+    "firebase_url": "https://darage-360d.firebaseio.com",
+    "project_id": "darage-360d",
+    "storage_bucket": "darage-360d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067791139091:android:96dc4ab7bc00e60c",
+        "android_client_info": {
+          "package_name": "com.a360degree.a360darage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067791139091-lt3227svs50q8mucrtoh2794crii677r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.a360degree.a360darage",
+            "certificate_hash": "18d9370fa962634c5d20c583203f9c15f1aeb99e"
+          }
+        },
+        {
+          "client_id": "1067791139091-eh9ie5tp4sl0vgbhh6tee6o1eh4tt2l7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbx6LlLar5jSHeyN-56zrWZZ058NT-lNo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067791139091-eh9ie5tp4sl0vgbhh6tee6o1eh4tt2l7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

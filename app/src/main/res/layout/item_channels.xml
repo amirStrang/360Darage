@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="72dp"
+    android:layout_height="wrap_content">
+
+    <com.a360degree.a360darage.Utils.CircleImage
+        android:id="@+id/img_channel_logo"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_channel_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:maxLength="9"
+        android:text="نام کانال" />
+
+</RelativeLayout>

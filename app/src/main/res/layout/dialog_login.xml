@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AlertDialogLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="328dp"
+    android:layout_height="280dp"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_bg"
+    android:theme="@style/Base.Theme.MaterialComponents.Dialog.Alert">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_dialog_header"
+            style="@style/TextAppearance.MyApp.Subtitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:text="لطفا برای آلپود کردن ابتدا وارد شوید"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/btn_gradient"
+            android:text="ثبت نام"
+            android:textAppearance="@style/TextAppearance.MyApp.Button"
+            android:textColor="@color/secondaryTextColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_dialog_header" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_stroke"
+            android:text="ورود"
+            android:textAppearance="@style/TextAppearance.MyApp.Button"
+            android:textColor="@color/secondaryColor"
+            app:layout_constraintEnd_toEndOf="@+id/btn_register"
+            app:layout_constraintStart_toStartOf="@+id/btn_register"
+            app:layout_constraintTop_toBottomOf="@+id/btn_register" />
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="108dp"
+            android:layout_height="1dp"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_or"
+            app:layout_constraintEnd_toEndOf="@+id/btn_login"
+            app:layout_constraintTop_toTopOf="@+id/txt_or" />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="108dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="8dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_or"
+            app:layout_constraintStart_toStartOf="@+id/btn_login"
+            app:layout_constraintTop_toTopOf="@+id/txt_or" />
+
+        <TextView
+            android:id="@+id/txt_or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="یا"
+            app:layout_constraintEnd_toStartOf="@+id/line1"
+            app:layout_constraintStart_toEndOf="@+id/line2"
+            app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+
+        <RelativeLayout
+            android:id="@+id/btn_reg_by_google"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/btn_google_reg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_or">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:text="با گوگل وارد شوید" />
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/ic_google" />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.AlertDialogLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">360Darage</string>
+    <string name="profile">پروفایل</string>
+    <string name="channels">کانال ها</string>
+    <string name="upload">آپلود</string>
+    <string name="search">جستوجو</string>
+    <string name="home">خانه</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo">logo</string>
+    <string name="populars">پربازدید ها</string>
+    <string name="photos">تصاویر</string>
+    <string name="videos">ویدئو ها</string>
+    <string name="home_page_logo">home page logo</string>
+    <string name="or">یا</string>
+    <string name="register_by_google">با گوگل وارد شوید</string>
+    <string name="password">رمز ورود</string>
+    <string name="login">ورود</string>
+    <string name="do_not_have_an_account">حساب ندارید ؟</string>
+    <string name="register">ثبت نام</string>
+    <string name="remember_password">رمز عبور خود را فراموش کرده اید ؟</string>
+    <string name="username_or_password">نام کاربری یا ایمیل</string>
+    <string name="email">ایمیل</string>
+    <string name="user_name">نام کاربری</string>
+    <string name="all_files">تمام فایل ها</string>
+</resources>
